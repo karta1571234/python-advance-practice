@@ -39,7 +39,7 @@ if response.status_code == requests.codes.ok:
 
     article = soup.find_all("a", class_="sc-1v1d5rx-3 kPUUNB")
     for item in article:
-        print(item.text)ss
+        print(item.text)
         artilist.append(item.text)
 
     http = soup.find_all("a href")
